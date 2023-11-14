@@ -62,7 +62,7 @@ postDOM.outerHTML = `<!-- ${postDOM.outerHTML} -->`;
 
 //MILESTONE 2
 //STAMPA SINGOLO POST IN PAGINA
-let postToAdd = `<div class="post">
+/*let postToAdd = `<div class="post">
 <div class="post__header">
     <div class="post-meta">                    
         <div class="post-meta__icon">
@@ -93,12 +93,13 @@ let postToAdd = `<div class="post">
 </div>            
 </div>`;
 container.innerHTML = postToAdd;
+*/
 
-
+//FINE MILESTONE 2
 
 //MILESTONE 3
 
-/*let contentToAdd = "";
+let contentToAdd = "";
 posts.forEach((element) => {
     let post = `<div class="post">
     <div class="post__header">
@@ -134,4 +135,3 @@ posts.forEach((element) => {
 });
 
  container.innerHTML = contentToAdd;
- */
