@@ -137,11 +137,9 @@ posts.forEach((element) => {
  container.innerHTML = contentToAdd;
 
  const likeBtn = document.getElementsByClassName("like-button__label");
- console.log(likeBtn);
-
  for (let i = 0; i < likeBtn.length; i++) {
     const element = likeBtn[i];
     element.addEventListener("click", function() {
-        element.classList.add("like-button--liked");
+        element.classList.toggle("like-button--liked");
     });
  }
