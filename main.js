@@ -55,3 +55,6 @@ const posts = [
         "created": "2021-03-05"
     }
 ];
+const postDOM = document.getElementsByClassName("post")[0];
+postDOM.outerHTML = `<!-- ${postDOM.outerHTML} -->`;
+console.log(postDOM.outerHTML);
